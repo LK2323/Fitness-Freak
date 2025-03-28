@@ -1,0 +1,261 @@
+:root {
+    --primary-color: #FFA500;
+    --secondary-color: #fff;
+    --Third-color: #000000;
+    --Fourth-color: #2d97ef;
+    --fifth-color: #ee40e3;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --black: #000000;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/backgroundmain.jpg');
+    background-size: contain;
+}
+
+header {
+    background: #000000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header :hover {
+
+    color: #fffb00;
+    transition-duration: 0.9s;
+
+}
+
+header .logo {
+    font-size: 30px;
+
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul :hover {
+
+    color: #fffb00;
+    transition-duration: 0.6s;
+    text-decoration-line: underline;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+main {
+    padding: 10px;
+}
+
+section {
+    background: #ffffff;
+    margin: 20px 1000px 0 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+Main section h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+main :hover {
+
+    background-color: #3dd8ff;
+    transition-duration: 0.6s;
+
+
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin-top: 10px;
+
+}
+
+
+
+label {
+    display: block;
+    margin: auto;
+
+}
+
+Footer {
+    text-align: center;
+    color: #f9f64a;
+    text-shadow: #ffffff;
+    background-color: #000000;
+
+}
+
+/* IMAGE VIEW */
+.IMAGE_VIEW {
+    background: var(--black);
+    color: var(--white);
+    border-radius: 0px;
+    padding: 15%;
+    margin-bottom: 2PX;
+}
+
+/* From Uiverse.io by joe-watson-sbf */
+.IMAGE_VIEW {
+    width: auto;
+    height: 380px;
+    border-radius: 4px;
+    background: #212121;
+    display: flex;
+    gap: 5px;
+    padding: .4em;
+}
+
+.IMAGE_VIEW p {
+    height: 100%;
+    width: 100%;
+    flex: 1;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .5s;
+    background: #212121;
+    border: 1px solid #ff5a91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.IMAGE_VIEW p:hover {
+    flex: 4;
+}
+
+.IMAGE_VIEW p span {
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #ffdf3c;
+    letter-spacing: .1em;
+}
+
+.IMAGE_VIEW p span1 {
+
+    font-size: 10px;
+    min-width: 14em;
+    padding: .5em;
+    text-align: center;
+    transform: rotate(-90deg);
+    transition: all .5s;
+    text-transform: uppercase;
+    color: #ff568e;
+    letter-spacing: .1em;
+}
+
+.IMAGE_VIEW p:hover span {
+    transform: rotate(0);
+}
+
+.IMAGE_VIEW p:hover span1 {
+    transform: rotate(0);
+}
+
+
+
+
+/*BUTTONS*/
+
+
+
+
+.btn {
+    display: inline-block;
+    padding: 13PX 20px;
+    background: var(--primary-color);
+    color: var(--Third-color);
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 14PX;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.6s;
+
+
+}
+
+.btn-secondary {
+    display: inline-block;
+    padding: 10PX 10px;
+    background: var(--Fourth-color);
+    color: var(--Third-color);
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 14PX;
+    cursor: pointer;
+    transition: 0.6s;
+
+}
+
+.btn:hover {
+    opacity: 0.9S;
+    background-color: var(--Third-color);
+    color: var(--primary-color);
+
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
